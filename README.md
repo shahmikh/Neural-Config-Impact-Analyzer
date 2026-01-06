@@ -48,8 +48,9 @@ source venv/bin/activate
 
 Run full analysis:
 python src/analyze_policies.py
-
+bash'''
 ---
+
 ##  Output
 
 For each policy, the tool outputs:
