@@ -40,15 +40,16 @@ IAM Policy → Parser → Graph Model → Feature Extraction
 
 ---
 
-##  How to Run
+## How to Run
 
-Activate virtual environment:
+Activate the virtual environment and run the full analysis:
+
 ```bash
-source venv/bin/activate
 
-Run full analysis:
+source venv/bin/activate
 python src/analyze_policies.py
-bash'''
+```bash
+
 ---
 
 ##  Output
@@ -60,6 +61,8 @@ Risk score (0–100)
 ML predicted risk level
 Human-readable explanation
 Safer IAM policy (if needed)
+
+---
 
 ## Why This Matters
 
