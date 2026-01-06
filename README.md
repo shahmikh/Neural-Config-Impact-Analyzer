@@ -48,8 +48,8 @@ Activate the virtual environment and run the full analysis:
 
 source venv/bin/activate
 python src/analyze_policies.py
-```bash
 
+```
 ---
 
 ##  Output
